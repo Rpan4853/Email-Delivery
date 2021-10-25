@@ -9,3 +9,5 @@ Once you have obtained your SendGrid API key and your sender email, you can add 
 Input each respective Order Number, Email, Quantity, and Name in each row separated by tab. An easy way to ensure you have the right format is to put the information into 4 columns in Excel and then copy and pasting into ORDNUM_EMAILS_QTY_NAME.txt. ***Please make sure you do not have an empty row in this file***
 
 Input the products that need to be delivered in LIST_MASTER.txt. There should be one product per row. The default quantities of products to be delivered are 25, 50, 100, and 200. You can add new quantities by initializing a new dictionary and change the quantities by editing the if statements in the first for loop in DC_DELIVERY_SCRIPT.py.
+
+***Make sure to save the .txt files after editing them to ensure changes go through***
